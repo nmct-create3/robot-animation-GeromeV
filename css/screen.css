@@ -140,16 +140,21 @@ body {
 .c-robot {
   max-width: 400px;
   fill: var(--global-color-front);
+  
+}
+.c-robot-animation-css{
+ 
   animation: RobotHover 0.75s ease-in-out infinite alternate;
 
 }
+.c-shadow-animation-css{
+  transform-origin: 50% 100%;
+  animation: shadowPulse 0.75s ease-in-out infinite alternate;
 
-
+}
 .c-robot__shadow {
   fill: var(--c-robot__shadow_fill,Black);
   opacity: .05;
-  transform-origin: 50% 100%;
-  animation: shadowPulse 0.75s ease-in-out infinite alternate;
 
 }
 
